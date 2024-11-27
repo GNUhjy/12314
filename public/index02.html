@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediasoup WebRTC Conference</title>
+</head>
+
+<body>
+    <h1>Mediasoup WebRTC Demo</h1>
+    <div id="localControls">
+        <button id="toggleVideo">Toggle Video</button>
+        <button id="toggleAudio">Toggle Audio</button>
+    </div>
+    <video id="localVideo" autoplay muted></video>
+    <div id="remoteVideos"></div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/dist/bundle.js"></script>
+</body>
+</html>
